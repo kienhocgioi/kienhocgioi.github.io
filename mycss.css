@@ -1,0 +1,194 @@
+@charset "utf-8";
+@import url("resp.css");
+/* CSS Document */
+*{	color:#fff; text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	font-family:Helvetica
+}
+#background {background-image: url("alex-tXYg4Zx7kSU-unsplash.jpg");
+	background-size:contain;
+	background-repeat: no-repeat;}
+body { 
+	z-index: 50;
+	margin-bottom: 0;
+	
+}
+header{
+	text-align: center;
+	padding-top: 270px ;
+	height: 400px;
+	background-image: url("alex-tXYg4Zx7kSU-unsplash.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	
+	
+}
+header h1{
+	font-size: 50px;
+	color:white;
+}
+nav a{
+	display:block;
+	text-decoration: none;
+	color:#C8C8C8;
+}
+nav li :hover{
+	color:#2AFF00;
+}
+nav li{
+	display:inline;
+	margin:5px 15px;
+	float:right;
+}
+nav {
+	position: fixed;
+    top: 10px;
+    right: 10px;
+	width:100%;
+	font-size: 20px;
+	z-index: 800;
+}
+#scroll{
+	display:none;
+	border:none;
+	color:black;
+	border-radius: 20%;
+	bottom: 40px;
+	right: 40px;
+	position:fixed;
+	z-index: 99;
+}
+#scroll :hover {
+	color:darkgray;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: #ec4224 url(https://lh3.googleusercontent.com/-ty4N7Sfz8XM/WKXl__NocnI/AAAAAAAAD5c/IEEWyspCMa8YNbyiJDhpgCFstjj05SwAQCLcB/s0/backtop.png) no-repeat center;
+    padding: 25px;
+    display: none;
+    border-radius: 100%;
+}
+.back-to-top:hover {
+    background-color: #1b89ca;
+}
+#section1 div {
+	float:right;
+	padding: 30px 30px 30px 30px;
+	background-color: #838383;
+	background-position: center;
+	height: 100%;
+	
+}
+#section1 div p{
+	text-align: justify;
+	height: 500;
+	width: 500;
+	margin-top:50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	
+}
+#section1 h2{text-align: center;
+}
+#section2 h2{
+	color: #E4E4E4;
+	text-align: center;
+	
+	
+}
+#section2 div{
+	background-color: #121212;
+	padding: 100px;
+	
+}
+#section2 div p{
+	color: #E4E4E4;
+	text-align: center;
+	
+	
+}	
+#section2 div img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+#section2 {padding-top: 600px;}
+.main{
+	
+    width: 60%;
+ margin-top: 50px;
+	
+}
+/* định dạng cho thẻ bao bọc các thẻ skill */
+.container {
+    width: 60%; 
+    background-color: #ddd; 
+	margin-top: 20px;
+}
+/* định dạng chung cho thẻ hiển thị skill */
+.skills {
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px; 
+    color: white;
+	padding-top: 20px;
+	
+	
+}
+/* định dạng cho từng skill theo số liệu */
+.html {width: 70%; background-color: #4CAF50;} 
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 60%; background-color: #f44336;} 
+#section3 h2{
+	color: #black;
+	text-align: center;
+	padding: auto;}
+
+	#section4 img{
+	width:29%;
+	float:left;
+	padding:20px ;
+		padding-top: 20px;
+		}
+#section4 {
+	padding-left: 12px;
+	text-align: center;}
+#section4 h2{
+	color:#000000;
+padding-top: 90px;
+} 
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 10s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+
+	
+	
+		
+
